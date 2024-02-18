@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Neue";
+  src: url("../font/PPNeueMontreal-Medium.otf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Neue-thin";
+  src: url("../font/PPNeueMontreal-Thin.otf");
+  font-weight: lighter;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Neue-semi";
+  src: url("../font/PPNeueMontreal-SemiBolditalic.otf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Neue-book";
+  src: url("../font/PPNeueMontreal-Book.otf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+#root {
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0 auto;
+  max-width: 1440px;
+  font-family: "Neue", sans-serif;
+}
+
+.fading-component {
+  transform: translateY(100px); /* Start below the viewport */
+  opacity: 0;
+  transition:
+    transform 0.6s ease-in-out,
+    opacity 1s ease-in-out;
+}
+
+.fadeIn {
+  transform: translateY(0); /* Move up to its original position */
+  opacity: 1;
+}

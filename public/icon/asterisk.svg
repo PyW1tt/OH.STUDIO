@@ -1,0 +1,12 @@
+<svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 16 16"
+          width="256"
+          height="256"
+        >
+          <path
+            d="M14 7h-3.586l2.536-2.536-1.414-1.414L9 5.586V2H7v3.586L4.464 3.05 3.05 4.464 5.586 7H2v2h3.586L3.05 11.536l1.414 1.414L7 10.414V14h2v-3.586l2.536 2.536 1.414-1.414L10.414 9H14z"
+            fill="#ffffff"
+            class="color000 svgShape"
+          ></path>
+        </svg>
