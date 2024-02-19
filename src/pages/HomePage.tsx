@@ -101,7 +101,7 @@ function HomePage() {
                     <img
                       src={item.url}
                       alt={item.id}
-                      className="w-full h-full rounded-2xl backdrop-blur-md"
+                      className="w-full h-full rounded-2xl object-cover"
                     />
 
                     {hoveredItem === index && (
